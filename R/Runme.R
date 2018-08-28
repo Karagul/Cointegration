@@ -1,3 +1,5 @@
+# From https://statcompute.wordpress.com/2018/07/29/co-integration-and-pairs-trading/
+
 pkgs <- list("quantmod", "doParallel", "foreach", "urca")
 lapply(pkgs, require, character.only = T)
 registerDoParallel(cores = 4)
